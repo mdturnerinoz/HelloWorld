@@ -1,1 +1,17 @@
 This is just a simple README file used to test github for my first public project.
+
+files:
+
+hello2.cpp  (C++ helloworld code)
+hello.c     (C hello world code)
+hellolib.c  (C hello world "library" code)
+makefile    (makefile used to build the executables)
+
+actions:
+
+make       (defaults to "all")
+make all   (builds
+
+extras:
+
+./hello  This stuff iss extra args (singles out argv values)

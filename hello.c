@@ -5,7 +5,7 @@ int hellolib ( int argc, char *[]);
 int main (int argc, char *argv[])
 {
 
-    printf("\n\tHello C World from Marty Turner !!! \n");
+    printf("\n\tHello C World !!! \n");
 
     hellolib( argc, argv );
 

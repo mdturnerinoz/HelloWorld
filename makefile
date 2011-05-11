@@ -1,7 +1,7 @@
 CC      := gcc
 CPP     := g++
 LDFLAGS := -lm
-all   : hello hello2 runit
+all   : hello hello2 run
 hello : hello.o hellolib.o
 	$(CC) hello.o hellolib.o -o hello
 hello2 : hello2.o
@@ -14,7 +14,7 @@ hellolib.o : hellolib.c
 	$(CC) -c -g $<
 html : 
 	firefox *.html
-runit : 
+run : 
 	(hello ; hello2)
 clean :
-	rm -f *.o hello hello2 .*.swp *~ *.html typescript
+	rm -f *.o hello hello2 .*.swp *~ 
