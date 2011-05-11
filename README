@@ -14,4 +14,17 @@ make all   (builds
 
 extras:
 
-./hello  This stuff iss extra args (singles out argv values)
+./hello  This stuff has extra args 
+
+e.g.:
+
+
+        Hello C World !!! 
+
+        Hellolib: argc: 6
+        Hellolib: This[1]
+        Hellolib: stuff[2]
+        Hellolib: has[3]
+        Hellolib: extra[4]
+        Hellolib: args[5]
+
