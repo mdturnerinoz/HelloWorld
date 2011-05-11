@@ -10,14 +10,13 @@ makefile    (makefile used to build the executables)
 actions:
 
 make       (defaults to "all")
-make all   (builds
+make all   (builds C and C++ code and then runs both)
 
 extras:
 
 ./hello  This stuff has extra args 
 
 e.g.:
-
 
         Hello C World !!! 
 
