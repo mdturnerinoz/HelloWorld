@@ -10,20 +10,8 @@ makefile    (makefile used to build the executables)
 actions:
 
 make       (defaults to "all")
-make all   (builds C and C++ code and then runs both)
+make all   (builds
 
 extras:
 
-./hello  This stuff has extra args 
-
-e.g.:
-
-        Hello C World !!! 
-
-        Hellolib: argc: 6
-        Hellolib: This[1]
-        Hellolib: stuff[2]
-        Hellolib: has[3]
-        Hellolib: extra[4]
-        Hellolib: args[5]
-
+./hello  This stuff iss extra args (singles out argv values)
